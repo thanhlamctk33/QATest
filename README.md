@@ -8,6 +8,26 @@ Here you will find examples that demonstrate
     - Create Business Role
     - Personal Details
     - Business Details
+    
+ 
+## Environment Setting Up
+
+1. Install nodejs:
+    https://nodejs.org/en/download/
+  
+2. Install testcafe:
+    https://testcafe.io/documentation/402834/guides/basic-guides/install-testcafe
+    
+3. Regarding document how to use testcafe
+    https://testcafe.io/documentation/402963/guides/advanced-guides/speed-up-test-execution
+    
+4. IDE Visual Studio Code   
+    https://code.visualstudio.com/download 
+    
+5. Install report for Test cafe
+   ```sh
+   npm install testcafe-reporter-html
+   ```
 
 ## Installation
 
@@ -22,69 +42,20 @@ Here you will find examples that demonstrate
     ```sh
     testcafe  chrome .\TestScript\registration_method_test.js -e  -r xunit:result.xml
     ```
-    ```
 
 ## Usage
 
-Use the `npm test` script to run all tests in Chrome and Firefox.
+Use the `npm test` script to run all tests in Chrome  Firefox, Safari and IE
 
 ```sh
-npm test
+testcafe  firefox .\TestScript\registration_method_test.js -e  -r xunit:result.xml
 ```
-
-You can use TestCafe [CLI options](https://devexpress.github.io/testcafe/documentation/using-testcafe/command-line-interface.html) to specify different [target browsers](https://devexpress.github.io/testcafe/documentation/using-testcafe/command-line-interface.html#browser-list) or run tests from a specific [directory](https://devexpress.github.io/testcafe/documentation/using-testcafe/command-line-interface.html#file-pathglob-pattern).
-
-To run tests in Chrome only, execute the following command:
 
 ```sh
-npx testcafe chrome examples
+testcafe  safari .\TestScript\registration_method_test.js -e  -r xunit:result.xml
 ```
-
-The following command runs the examples from the `client-scripts` directory:
+You can also run on headless mode:
 
 ```sh
-npx testcafe chrome examples/client-scripts
+testcafe  chrome:headless .\TestScript\registration_method_test.js -e  -r xunit:result.xml
 ```
-
-See [Command Line Interface](https://devexpress.github.io/testcafe/documentation/using-testcafe/command-line-interface.html) for more information.
-
-## Examples in This Repository
-
-> We are in the process of adding more examples to this repository.
-
-The repository includes the following examples:
-
-* [Access Element Properties](examples/element-properties)
-* [Change Element's Style](examples/change-element-style)
-* [Check If an Image Has Loaded](examples/check-if-image-loaded)
-* [Check the Downloaded File Name and Content](examples/check-downloaded-file-name-and-content)
-* [Check Whether Web Page Is Opened With TestCafe](examples/check-if-opened-with-testcafe)
-* [Create Data-Driven Tests](examples/create-data-driven-tests)
-* [Extract Reused Code to Helper Functions](examples/extract-code-to-helpers)
-* [Find Element By Trimmed Text](examples/find-element-by-trimmed-text)
-* [Import Third-Party Modules](examples/import-third-party-modules)
-* [Inject Custom Client Scripts](examples/client-scripts)
-* [Iterate Over a List of Elements](examples/iterate-over-list-elements)
-* [Iterate Over Table Rows](examples/iterate-over-table-rows)
-* [Mock Date](examples/mock-date)
-* [Mock Geolocation API](examples/mock-geolocation-api)
-* [Page Manipulation](examples/page-manipulation)
-* [Pass Parameters to Tests](examples/pass-parameters-to-tests)
-* [Scroll Elements Into View](examples/scroll)
-* [Select a Table Row by Cell Content](examples/select-table-row-by-cell-content)
-* [Select Files To Upload](examples/upload-files)
-* [Set a Custom Referrer](examples/set-a-custom-referrer)
-* [Simulate the Web Page Losing Focus](examples/blur-window)
-* [Submit a Form](examples/submit-a-form)
-* [Test \<select\> Elements](examples/test-select-elements)
-* [Use Page Model](examples/use-page-model)
-* [Use XPath Selectors](examples/use-xpath-selectors)
-* [Wait Until an Element Property Has a Specific Value](examples/wait-for-element-property-value)
-* [Wait For File Download](examples/wait-for-file-download)
-
-Below are the examples that run in Chrome or Firefox only or require additional launch arguments. You should launch these examples separately.
-
-* [Extended Client-Side Error Tracking](detached-examples/extended-error-tracking)
-* [Mock Camera/Microphone Access](detached-examples/mock-camera-microphone-access)
-* [Multi-User Tests](detached-examples/multiuser-scenario)
-
