@@ -14,19 +14,14 @@ Here you will find examples that demonstrate
 1. Clone this repository:
 
     ```sh
-    git clone https://github.com/DevExpress/testcafe-examples.git
+    git clone https://github.com/thanhlamctk33/QATest.git
     ```
 
-2. Go to the project's root directory:
+2. Run Command:
 
     ```sh
-    cd testcafe-examples
+    testcafe  chrome .\TestScript\registration_method_test.js -e  -r xunit:result.xml
     ```
-
-3. Install the dependencies:
-
-    ```sh
-    npm install
     ```
 
 ## Usage
