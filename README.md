@@ -64,3 +64,5 @@ You can also run on headless mode:
 ```sh
 testcafe  chrome:headless .\TestScript\registration_method_test.js -e  -r xunit:result.xml
 ```
+
+For Manual test cases you can find ino folder ManualTestCase\TestCases
