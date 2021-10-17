@@ -16,9 +16,13 @@ Here you will find examples that demonstrate
   
 2. Install testcafe:  https://testcafe.io/documentation/402834/guides/basic-guides/install-testcafe
     
-3. Regarding document how to use testcafe:  https://testcafe.io/documentation/402963/guides/advanced-guides/speed-up-test-execution
+3. Regarding document how to use testcafe:  
+
+https://testcafe.io/documentation/402963/guides/advanced-guides/speed-up-test-execution
     
-4. IDE Visual Studio Code:  https://code.visualstudio.com/download 
+4. IDE Visual Studio Code:  
+
+https://code.visualstudio.com/download 
     
 5. Install report for Test cafe
    ```sh
