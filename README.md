@@ -1,12 +1,17 @@
-# ASpire Test QA Project
+# Test QA Project
 
 This repository contains sample test files that help you learn how to use TestCafe.
 
-Here you will find examples that demonstrate 
+Here you will find examples that demonstrate:
+
     - Register to the webpage with account
+    
     - Mobile Verification (OPT) with default OPT is 1234
+    
     - Create Business Role
+    
     - Personal Details
+    
     - Business Details
     
  
