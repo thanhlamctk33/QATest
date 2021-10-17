@@ -2,7 +2,7 @@
 
 This repository contains sample test files that help you learn how to use TestCafe.
 
-Here you will find examples that demonstrate:
+Here you will find some examples that demonstrate:
 
     - Register to the webpage with account
     
