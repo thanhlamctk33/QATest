@@ -1,0 +1,9 @@
+PS F:\testcafe\aspire> testcafe  chrome .\TestScript\registration_method_test.js -e.
+ Running tests in:
+ - Chrome 94.0.4606.81 / Windows 10
+
+Aspire Product Money Loan
+ √ Registration Account
+ √ Update Information account
+
+ 2 passed (33s)

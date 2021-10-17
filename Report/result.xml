@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 94.0.4606.81 / Windows 10" tests="1" failures="1" skipped="0" errors="1" time="47.112" timestamp="Sun, 17 Oct 2021 08:04:59 GMT" >
+  <testcase classname="Page Model" name="Registration Method Select" time="47.079">
+    <failure>
+    <![CDATA[
+      1) The specified selector does not match any element in the DOM tree.
+
+          > | Selector('input[placeholder="The full legal busine...)
+
+         Browser: Chrome 94.0.4606.81 / Windows 10
+
+            30 |
+            31 |    }
+            32 |    async fillInBusinessDetailForm (businessName, entityCategory,
+            33 |        entityType, businessNumber, industry, subIndustry) {
+            34 |        await t
+          > 35 |        .typeText(this.businessLegalNameInput, businessName)
+            36 |
+            37 |        .click(this.entityCategorySelect)
+            38 |        .hover(this.generalOption.withText(entityCategory))
+            39 |        .click(this.generalOption.withText(entityCategory))
+            40 |
+
+            at <anonymous> (F:\testcafe\aspire\PageObject\business_detail_page.js:35:10)
+            at asyncGeneratorStep (F:\testcafe\aspire\PageObject\business_detail_page.js:1:287)
+            at _next (F:\testcafe\aspire\PageObject\business_detail_page.js:1:625)
+            at <anonymous> (F:\testcafe\aspire\PageObject\business_detail_page.js:1:790)
+            at <anonymous> (F:\testcafe\aspire\PageObject\business_detail_page.js:1:531)
+            at BusinessDetail.fillInBusinessDetailForm
+      (F:\testcafe\aspire\PageObject\business_detail_page.js:33:60)
+            at <anonymous> (F:\testcafe\aspire\TestScript\registration_method_test.js:22:27)
+            at asyncGeneratorStep (F:\testcafe\aspire\TestScript\registration_method_test.js:9:292)
+            at _next (F:\testcafe\aspire\TestScript\registration_method_test.js:9:630)
+    ]]>
+    </failure>
+  </testcase>
+</testsuite>
