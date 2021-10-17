@@ -12,19 +12,24 @@ Here you will find examples that demonstrate
  
 ## Environment Setting Up
 
-1. Install nodejs:  https://nodejs.org/en/download/
+1. Install nodejs:  
+
+   https://nodejs.org/en/download/
   
-2. Install testcafe:  https://testcafe.io/documentation/402834/guides/basic-guides/install-testcafe
+2. Install testcafe:  
+
+   https://testcafe.io/documentation/402834/guides/basic-guides/install-testcafe
     
 3. Regarding document how to use testcafe:  
 
-https://testcafe.io/documentation/402963/guides/advanced-guides/speed-up-test-execution
+   https://testcafe.io/documentation/402963/guides/advanced-guides/speed-up-test-execution
     
 4. IDE Visual Studio Code:  
 
-https://code.visualstudio.com/download 
+   https://code.visualstudio.com/download 
     
 5. Install report for Test cafe
+
    ```sh
    npm install testcafe-reporter-html
    ```
